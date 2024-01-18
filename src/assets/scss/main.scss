@@ -1,9 +1,18 @@
 
 @use "partials/variables.scss" as *;
 @use "partials/mixins.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 
-h1{
-    text-align: center;
-    color: lightcoral;
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
 }
