@@ -313,9 +313,7 @@
             width: 70%;
         }
 
-        > div:last-child{
-            align-self: flex-end;
-        }
+        
     }
 
     .footer-bottom ul li{

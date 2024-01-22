@@ -91,6 +91,8 @@
 <template>
     
     <main>
+        <div class="jumbotron">
+        </div>
         <div class="container">
             <div class="comics-container">
                 <AppSingleComic v-for="(comic,i) in comics"
@@ -105,8 +107,6 @@
     @use "../assets/scss/main.scss" as *;
     main{
         background-color: black;
-        padding: 20px;
-        vertical-align: middle;
     }
 
     .comics-container{
@@ -114,6 +114,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+        margin-top: 30px;
 
         > *{
             width: calc(100% / 6);
@@ -122,5 +123,14 @@
         }
         
         
+    }
+
+    .jumbotron{
+        background-image: url(../../public/img/jumbotron.jpg);
+        width: 100%px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
 </style>

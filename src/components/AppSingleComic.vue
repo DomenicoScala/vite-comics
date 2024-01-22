@@ -17,6 +17,7 @@
 <template>
     
     <div class="single-comic">
+
         <img :src="fumetto.thumb" alt="">
         <div>
             <h4>{{ fumetto.series }}</h4>
@@ -31,9 +32,10 @@
     .single-comic{
         margin-bottom: 30px;
         
-        > img{
+        >img{
             margin-bottom: 10px;
             width: 50%;
+
         }
 
         >div h4{
